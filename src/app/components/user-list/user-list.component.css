@@ -1,0 +1,40 @@
+.custom-card {
+    background-color: #f8f9fa; 
+    border: 1px solid #dee2e6; 
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .custom-card:hover {
+    background-color: #e9ecef; 
+    transform: scale(1.05); /
+  }
+  
+  .custom-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #007bff; 
+  }
+  
+  .card-title {
+    color: #007bff; 
+  }
+  
+  .card-text {
+    color: #6c757d; 
+  }
+  
+.custom-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .custom-img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  @import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+  
